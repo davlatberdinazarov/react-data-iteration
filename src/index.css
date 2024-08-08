@@ -1,0 +1,33 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cards {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.card {
+  max-width: 27%;
+  padding: 20px;
+  height: 170px;
+  box-shadow: 1px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  background-color: rgb(167, 225, 221);
+  border-radius: 12px;
+  width: 100%;
+}
+
+.span {
+  font-size: 24px;
+}
